@@ -117,7 +117,7 @@ Item {
 
             anchors.fill: parent
             anchors.margins: vpx(3)
-            source: gameData ? gameData.assets.screenshots[0] || gameData.assets.background || "" : ""
+            source: gameData ? gameData.assets.screenshots[0] || gameData.assets.boxFront || gameData.assets.background || "" : ""
             fillMode: Image.PreserveAspectCrop
             sourceSize: Qt.size(screenshot.width, screenshot.height)
             smooth: false

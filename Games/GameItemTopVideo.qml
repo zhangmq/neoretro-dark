@@ -37,7 +37,7 @@ Item {
 
             Image {
                 id: img_game_screenshot
-                source: currentGame.assets.screenshots[0] || currentGame.assets.titlescreen
+                source: currentGame.assets.screenshots[0] || currentGame.assets.titlescreen || currentGame.assets.boxFront
                 anchors {
                     fill: parent
                 }
